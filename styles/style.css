@@ -1,9 +1,33 @@
-/*h1 headline hover*/
+
+img {
+  width: 15rem;
+}
+
+
+/*more specific takes precedence*/
+a {
+  text-decoration: none;
+}
+nav a {
+  text-decoration: line-through;
+}
+
+/*more recent takes precedence*/
+p {
+  color: magenta;
+}
+p {
+  color: orange;
+}
+
+
+
+/*h1 headline hover
 h1:hover {
   color: yellow;
 }
 
-/* removes underline after clicked*/
+/* removes underline after clicked
 a:visited { 
   text-decoration: none;
 }
@@ -23,23 +47,11 @@ p::first-letter {
   font-size: 1.5em;
 }
 
-/*footer has border and curve*/
+/*footer has border and curve
 footer {
   border: 2px solid magenta;
   border-radius: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*below is the css no longer being used
 /* creating a class called highlight
